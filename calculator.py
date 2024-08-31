@@ -1,10 +1,14 @@
-def adder(operator1, operator2): return operator1 + operator2
+def adder(operator1, operator2): 
+    return operator1 + operator2
 
-def subtractor(operator1, operator2): return operator1 - operator2
+def subtractor(operator1, operator2): 
+    return operator1 - operator2
 
-def multiplier(operator1, operator2): return operator1 * operator2
+def multiplier(operator1, operator2): 
+    return operator1 * operator2
 
-def divider(operator1, operator2): return operator1 / operator2
+def divider(operator1, operator2): 
+    return operator1 / operator2
 
 operation = int(input("Select operation: 1=+ 2=- 3=* 4=/"))
 operator1 = float(input("Enter the first number: "))
